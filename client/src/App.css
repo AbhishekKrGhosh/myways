@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  display: flex;
+  padding: 60px;
+  background-color: rgb(255, 252, 248);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chat{
+  margin-right: 200px;
+  flex-direction: column;
+  display: flex;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chat1{
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+.chatRoom{
+  font-size: 30px;
+  margin-right: 500px;
+}
+.room{
+  height: 60vh;
+  width: 40vw;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 248, 239);
+}
+.down{
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+.attach{
+  margin-right: 50px;
+}
+.input{
+  width: 550px;
+}
+.TaskBoard{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.taskHead{
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: antiquewhite;
 }
+.taskBody{
+  display: flex;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 248, 239);
+}
+.todo{
+margin-right: 200px;
+height: 70vh;
+}
+.inprogress{
+margin-right: 200px;
+height: 70vh;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.done{
+  height: 70vh;
+
 }
